@@ -1,0 +1,5 @@
+{
+  "plugins": [
+    "makenotion/claude-code-notion-plugin"
+  ]
+}
