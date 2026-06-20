@@ -1,5 +1,6 @@
 {
   "plugins": [
-    "andieha/ah-claude-code-notion-plugin"
+    "andieha/ah-claude-code-notion-plugin",
+    "anthropics/financial-services"
   ]
 }
