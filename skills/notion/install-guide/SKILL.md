@@ -41,12 +41,14 @@ Use `Notion:notion-create-pages` with the parent page ID.
 > Step-by-step installation guide for [tool/plugin] — covering [environments listed].
 ```
 
-**One section per installation method**, ordered simplest → most technical:
+**Identify the user's current environment first** and lead with that method, marked clearly as "Your Setup":
 ```
-## 💻 Option 1 — [Simplest method]
-## 🖥️ Option 2 — [CLI/local method]
-## 🏢 Option 3 — [Enterprise/other method]
+## ✅ Your Setup — [User's current environment]
+## 🖥️ Alternative — [CLI/local method]
+## 🏢 Alternative — [Enterprise/other method]
 ```
+
+For users on **claude.ai/code (web)**: always lead with the `settings.json` approach since `/plugin` is not available. Make the 4 steps explicit: open the file → add the entry → commit & push → start a new session.
 
 Each section contains:
 - Numbered steps with exact commands in code blocks
